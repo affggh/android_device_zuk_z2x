@@ -24,10 +24,6 @@ PRODUCT_PACKAGES += \
     init.qcom.sensors.sh \
     init.qcom.sh \
     init.target.rc \
-    init.usb.rc \
-    init.zuk.rc \
-    init.zuk.usb.rc \
-    init.zuk.usb.sh \
     twrp.fstab \
     ueventd.qcom.rc
 
@@ -37,10 +33,6 @@ PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/rootdir/etc/init.qcom.sensors.sh:root/init.qcom.sensors.sh \
     $(LOCAL_PATH)/rootdir/init.qcom.sh:root/init.qcom.sh \
     $(LOCAL_PATH)/rootdir/init.target.rc:root/init.target.rc \
-    $(LOCAL_PATH)/rootdir/init.usb.rc:root/init.usb.rc \
-    $(LOCAL_PATH)/rootdir/init.zuk.rc:root/init.zuk.rc \
-    $(LOCAL_PATH)/rootdir/init.zuk.usb.rc:root/init.zuk.usb.rc \
-    $(LOCAL_PATH)/rootdir/init.zuk.usb.sh:root/init.zuk.usb.sh \
     $(LOCAL_PATH)/rootdir/etc/twrp.fstab:root/twrp.fstab \
     $(LOCAL_PATH)/rootdir/ueventd.qcom.rc:root/ueventd.qcom.rc
 
